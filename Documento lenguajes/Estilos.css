@@ -1,0 +1,262 @@
+                /*Selector universal*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box; 
+
+
+}
+                /*Clases de bordes y otros agrupamientos*/
+
+.buttonCS {
+    background: linear-gradient(white,#9D4786);
+    color: white;
+    border-radius: 9px;
+    width: 210px;
+    height: 60px;
+    text-align: center;
+    border-style: none;
+    margin-left: 550px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.Marco {
+    background: linear-gradient(#E6639B,#9D4786);
+    width: 1480px; height: auto;
+    border-style: solid;
+    margin-left: auto; margin-right: auto;
+    
+}
+
+.agrupar{
+    width: 80%; height: 8300px;
+    margin-top: 55px;
+    background-color: #9D4786;
+    background: linear-gradient(#E6639B,#9D4786);
+    border-style: solid;
+    margin-bottom: 55px;
+    margin-right: auto; margin-left: auto;
+    
+}
+.Menu {
+    
+    background-color: #E6639B;
+    height: 40px; width: auto; 
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    border-style: solid;
+    border-left: 0px; border-right: 0px;
+}
+.left {
+    text-align: left;
+}
+.negrita {
+    font-weight: bold; }
+
+                    /*Identificadores*/
+
+
+#Subtitulo {
+    font-size: 60px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+                    /*Logos en css de fondo (div)*/
+.javascript {
+    background-image: url(Javascript.png);
+    background-repeat: no-repeat;
+    width: 180px; height: 150px;
+    background-position: center;
+    margin-left: auto; margin-right: auto;
+}
+.python {
+    background-image: url(ImagenesAjustadas/Python.png);
+    background-repeat: no-repeat;
+    width: 140px; height: 140px;
+    background-position: center;
+    margin-left: auto; margin-right: auto;
+}
+.php {
+    background-image: url(ImagenesAjustadas/Php.png);
+    background-repeat: no-repeat;
+    width: 210px; height: 120px;
+    background-position: center;
+    margin-left: auto; margin-right: auto;
+}
+.ruby {
+    background-image: url(ImagenesAjustadas/Ruby.png);
+    background-repeat: no-repeat;
+    width: 140px; height: 170px;
+    background-position: center;
+    margin-left: auto; margin-right: auto;
+}
+.cchat {
+    background-image: url(ImagenesAjustadas/Cchat.png);
+    background-repeat: no-repeat;
+    width: 140px; height: 150px;
+    background-position: center;
+    margin-left: auto; margin-right: auto;
+}
+.cmasmas {
+    background-image: url(ImagenesAjustadas/Cmasmas.png);
+    background-repeat: no-repeat;
+    width: 140px; height: 150px;
+    background-position: center;
+    margin-left: auto; margin-right: auto;
+}
+.java {
+    background-image: url(ImagenesAjustadas/Java.png);
+    background-repeat: no-repeat;
+    width: 140px; height: 150px;
+    background-position: center;
+    margin-left: auto; margin-right: auto;
+}
+.perl {
+    background-image: url(ImagenesAjustadas/Perl.png);
+    background-repeat: no-repeat;
+    width: 140px; height: 150px;
+    background-position: center;
+    margin-left: auto; margin-right: auto;
+}
+                    /*Efecto grande*/
+
+.javascript:hover {
+    background-size: 100% 100%;
+    width: 400px; height: 280px;
+}
+.python:hover {
+    background-size: 100% 100%;
+    width: 200px; height: 200px;
+}
+.ruby:hover {
+    background-size: 100% 100%;
+    width: 180px; height: 185px;
+}
+.java:hover {
+    background-size: 100% 100%;
+    width: 170px; height: 200px;
+}
+.php:hover {
+    background-size: 100% 100%;
+    width: 300px; height: 165px;
+}
+.cchat:hover {
+    background-size: 100% 100%;
+    width: 190px; height: 200px;
+}
+.cmasmas:hover {
+    background-size: 100% 100%;
+    width: 190px; height: 200px;
+}
+.perl:hover {
+    background-size: 100% 100%;
+    width: 180px; height: 190px;
+}
+
+
+                    /*Selectores de etiquetas*/
+a {
+    margin-left: 10px;
+    display: inline;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(255,225,225);
+}
+.Menu a {
+    border-style: ridge; 
+    border-color: white;
+    background-color: black;
+}
+.Nav a {
+    border-style: ridge;
+    border-color: white;
+    background-color: black;
+}
+a:hover {
+    color: #f2f3f4;
+    border-color: gray;
+}
+a:visited{
+    color: rgb(206, 199, 199);
+    border-color: rgb(206, 199, 199);
+}
+h3 a {
+    color: white;
+}
+p,h1,h2,h3 {
+    margin-top: 30px; color: white
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: justify; font-weight: lighter;
+    margin-bottom: 50px;
+}
+.header h1 {
+    font-size: 90px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+.Footer p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#image:hover{
+    filter: contrast(200%);
+    margin-top: 40px;
+}
+img {
+    border-radius: 5%;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+
+         /*Cajas para la estructura moderna*/
+.Header{
+    height: 50px; background-color: #2F3BAD;
+    border-style: solid;
+}
+.Nav {
+    
+    background-color: #E6639B;
+    height: 40px; width: auto;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    border-style: solid;
+    border-left: 0px; border-right: 0px;
+}
+.Contenido {
+    border-style: solid;
+}
+.SeccionI,.Seccion1,.Seccion2,.Seccion3,.Seccion4,.Seccion5,.Seccion6,.Seccion7,.Seccion8 {
+    border-style: solid;
+    margin-top: 20px;
+    text-align: justify;
+    border-right: 0px; border-left: 0px;
+    font-size: 20px; }
+    
+
+.SeccionI {
+border-top: 0px; border-left: 0px; 
+border-right: 0px;
+}
+.Seccion1 {
+    margin-top: 0px; border-top: 0px;
+
+}
+.Footer {
+    background-color: #9D4786;
+    width: auto; height: 5.5%;
+    border-style: solid;
+    border-width: 0px;
+}
+

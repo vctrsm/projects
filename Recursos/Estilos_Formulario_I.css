@@ -1,0 +1,82 @@
+body {
+    background-image: url(FM.png);
+    width: auto;
+    height: 600px;
+}
+h1 {
+    font-family: Arial;
+    font-weight: bold;
+    color: #141414;
+    font-style: italic;
+    margin: 0px;
+}
+.fondo {
+    margin-right: auto;
+    margin-top: 150px;
+    margin-left: auto;
+    width: 600px;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    color: rgb(66, 66, 66);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 9%;
+    font-style: italic;
+}
+img{
+    width: 100px;
+    height: 90px;
+    border: #9D4786 solid 2px;
+    margin: 0px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.button{
+    background: linear-gradient(white,#9D4786);
+    color: white;
+    border-radius: 9px;
+    width: 90px;
+    text-align: center;
+    margin-top: 20px;
+}
+p {
+    text-align: left;
+    margin-bottom: 5px;
+}
+input {
+    text-align: left;
+    margin-bottom: 0px;
+    height: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-color: #9D4786;
+}
+.center{text-align: center;
+}
+
+input:hover {
+    animation: Hover 2s forwards;
+}
+@keyframes Hover {
+    0%{background-color: white;}
+    100%{background-color: #ffd9f5;}
+}
+
+.button:active {
+    background-color: #9D4786;
+}
+
+
+.Titulo {
+    width: 500px;
+    height: 65px;
+    float: right;
+    margin-top: 25px;
+    border: 2px solid #9D4786;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: #9D4786;
+}
